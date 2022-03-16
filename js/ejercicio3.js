@@ -21,7 +21,7 @@ var num3= prompt("Da OTRO número por favor: ")
 num1 = parseInt(num1)
 num2 = parseInt(num2)
 num3 = parseInt(num3)
- 
+//la comporacion
 if(num1>num2 && num1>num3){
     alert ("el numero es el #1 mayor " + num1)
 }
