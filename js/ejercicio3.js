@@ -14,3 +14,22 @@ if (num>8){
 }
 var resultadoTotal=compararNum
 alert("la suma es" + resultadoTotal) */
+var num1=prompt("Da un número por favor: ")//pregunto al usuario 
+var num2=prompt("Da OTRO número por favor: ")
+var num3= prompt("Da OTRO número por favor: ")
+
+num1 = parseInt(num1)
+num2 = parseInt(num2)
+num3 = parseInt(num3)
+ 
+if(num1>num2 && num1>num3){
+    alert ("el numero es el #1 mayor " + num1)
+}
+else if (num2>num1 && num2>num3){
+    alert("el #2 es el mayor " + num2)
+}
+else {
+    alert ("el #3 es el mayor " + num3)
+}
+
+
